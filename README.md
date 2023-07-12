@@ -79,6 +79,8 @@ For draw tree use library graphviz and must be installed in your computer. For e
 import graphviz
 model.generate_tree_diagram(graphviz,"File Name")
 ```
+Example output:
+![Example Tree](images/tree.png)
 
 ### Write Rules
 For write rules, you can call `write_rules` method. For example:

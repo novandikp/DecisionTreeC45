@@ -273,7 +273,7 @@ class C45Classifier:
 
         def build_tree(node, parent_node=None, edge_label=None):
             if isinstance(node, _DecisionNode):
-                current_node_label = node.attribute
+                current_node_label = str(node.attribute)
                 dot.node(str(id(node)), label=current_node_label)
 
                 if parent_node:
